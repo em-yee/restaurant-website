@@ -1,0 +1,167 @@
+/* Dark green (almost black) - #081c15
+navy - #14213D
+gold - #FCA311  (accent)
+light gray - #faedcd
+white = #fefae0 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: absolute;
+  top: 550px;
+  left: 0;
+  width: 100%;
+}
+
+/* background colors */
+.bg-darkest {
+  background-color: #081c15;
+}
+.bg-darker {
+  background-color: #1b4332;
+}
+.bg-accent {
+  background-color: #d4a373;
+}
+.bg-lighter {
+  background-color: #e9edc9;
+}
+
+/* font colors */
+.text-darkest {
+  color: #081c15;
+}
+.text-darker {
+  color: #1b4332;
+}
+
+a.text-accent {
+  margin-top: 1rem;
+}
+
+.text-accent {
+  color: #fcbf49;
+}
+.text-accent a {
+  color: #fcbf49;
+  text-decoration: none;
+}
+.text-accent a,
+a:hover {
+  color: #fcbf49;
+  text-decoration: underline;
+}
+.text-light {
+  color: #faedcd;
+}
+.text-lighter {
+  color: #ccd5ae;
+}
+.text-middle {
+  color: #2d6a4f;
+}
+
+.ps-light {
+  background-color: #fefae0;
+  /*height: 550px;*/
+  width: 100%;
+}
+.ps-gray {
+  background-color: #faedcd;
+  /*height: 550px;*/
+  width: 100%;
+}
+
+.parallax {
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/zInQtlWsVhyRdC9JtidbrA/o.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/WR_3Ls8l5d11KqD1ABcJbg/o.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-border {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #fcbf49;
+  width: 100%;
+  max-width: 500px;
+  margin-right: 2vw;
+}
+
+.lead {
+  text-align: justify;
+  flex-wrap: nowrap;
+}
+
+.about-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 2vw;
+}
+
+.reviews-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.maps {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 400px;
+}
+
+.col-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.review-wrapper {
+  padding: 0 1rem;
+  text-align: left;
+  height: 100%;
+  min-width: 33%;
+  /*display: flex;*/
+  /*align-items: flex-start;*/
+  /*justify-content: flex-start;*/
+  flex-direction: column;
+}
+
+.vertical-divider {
+  height: 65vh;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 0 1rem;
+}
+
+.visit {
+  display: flex;
+  flex-direction: column;
+}

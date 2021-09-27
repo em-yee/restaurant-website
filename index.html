@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <header class="header">
+        <div
+          id="opacitylayer"
+          class="position-absolute top-0 w-100 h-100 bg-darkest z20 opacity"
+        ></div>
+
+        <div
+          id="imagelayer"
+          class="
+            position-absolute
+            top-0
+            w-100
+            h-100
+            z10
+            d-md-none d-lg-none d-xl-none
+          "
+        >
+          <img
+            src="https://www.google.com/maps/place/Limonar+Mexican+restaurant/@34.0026456,-84.1714211,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOeHPyjjhCUMtYiZpVVJlU02wa5V6LPZiZEA2ug!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOeHPyjjhCUMtYiZpVVJlU02wa5V6LPZiZEA2ug%3Dw597-h298-k-no!7i4278!8i2134!4m7!3m6!1s0x88f5a30861de836b:0x6d110c4420296e0c!8m2!3d34.0026456!4d-84.1714211!14m1!1BCgIgAQ?hl=en-US"
+            alt=""
+          />
+        </div>
+
+        <div
+          id="videolayer"
+          class="position-absolute z10 ratio ratio-16x9 d-none d-md-block"
+        >
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qGPsT5jzjqM?autoplay=1&controls=0&disablekb=1&loop=1&modestbranding=1&playsinline=1&color=white&mute=1&start=9"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+        </div>
+
+        <div
+          id="textlayer"
+          class="
+            position-absolute
+            top-0
+            w-100
+            h-100
+            z25
+            text-accent
+            display-3
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+          "
+        >
+          <div>Limonar Mexican Restaurant</div>
+          <div class="text-light h3">Authentic Mexican Food</div>
+          <div>
+            <a
+              class="btn btn-warning text-light"
+              href="https://www.grubhub.com/restaurant/limonar-mexican-restaurant-3545-peachtree-industrial-blvd-suite-10-duluth/2715403#"
+              target="_blank"
+              role="button"
+              >Order Here!</a
+            >
+          </div>
+        </div>
+      </header>
+
+      <nav class="navbar navbar-expand-lg bg-darker text-accent fixed-top">
+        <div class="container-fluid">
+          <i class="fas fa-home"></i>
+          <a class="navbar-brand d-inline-block ms-3" href="#">Limonar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="ps-light py-5">
+          <div class="row mt-3 mt-md-0 about-container">
+            <div class="about-container">
+              <div class="img-border">
+                <img
+                  src="https://s3-media0.fl.yelpcdn.com/bphoto/oY6b_BucIpNAKXSVonN7VQ/o.jpg"
+                  width="100%"
+                  alt="This is a picture of the host stand at Limonar."
+                />
+              </div>
+              <div class="about-us">
+                <div class="display-3 pb-3"><u>About Us</u></div>
+                <div class="lead">
+                  Limonar Mexican Restaurant is a family-owned business opened
+                  this year. We have created Limonar Mexican Restaurant to serve
+                  all time favorite Mexican dishes like fajitas, tacos and so
+                  much more! Our store is known for its variety in taste and
+                  fresh ingredients. Come and experience our friendly atmosphere
+                  and excellent service. We are accepting both dine-in and take
+                  out orders. Come visit us today!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"></div>
+        <div class="ps-gray py-3">
+          <div class="py-5 ps-5 pe-5 reviews-container">
+            <div class="display-2 text-center text-middle mb-5">
+              Check us out on
+              <a
+                href="https://www.yelp.com/biz/limonar-mexican-restaurant-duluth"
+                target="_blank"
+                style="color: #2d6a4f"
+                >Yelp</a
+              >!
+            </div>
+            <div class="col-container">
+              <div class="lead review-wrapper">
+                <blockquote>
+                  "I have been eating Mexican food before I had baby's milk. I
+                  have never in my entire 66 years have had Mexican this good on
+                  anything and I mean anything on their menu. Great staff food
+                  is so fresh and so delicious. Hard to find but you'll never go
+                  to another Mexican restaurant after you experience Limonar.
+                  Unbelievable the best you'll ever try"
+                  <br />
+                </blockquote>
+                <a
+                  class="text-accent"
+                  href="http://huynhrestauranthouston.com/uploads/2822/Huynh_Authentic_Vietnamese_Cuisine.pdf"
+                  target="_blank"
+                  >Continue Reading
+                </a>
+                <footer class="blockquote-cite">- Randy B.</footer>
+              </div>
+              <span class="vertical-divider"></span>
+              <div class="lead review-wrapper">
+                <blockquote>
+                  "I've been waiting to go to this place since it opened. My
+                  husband and children went today while I was shopping. They
+                  loved it so much that I went back on my own to get take out
+                  for myself and my husband. I went and sat at the bar and
+                  ordered to-go food and a margarita. *here is the kicker -
+                  because I was getting take out, I didn't get the chips and
+                  salsa, etc. I didn't need it, nor would I have eaten it, but
+                  felt snubbed. I wasn't snubbed. It was with alllll of the rest
+                  of my food. and the food is amazing. Go there. Now."
+                  <br />
+                </blockquote>
+                <a
+                  class="text-accent"
+                  href="https://www.yelp.com/biz/limonar-mexican-restaurant-duluth?hrid=J3kAsgUl4s-ohi4HxeGSoA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
+                  target="_blank"
+                  >Continue Reading
+                </a>
+                <footer class="blockquote-cite">- Holly S.</footer>
+              </div>
+              <span class="vertical-divider"></span>
+              <div class="lead review-wrapper">
+                <blockquote>
+                  "Found this hidden treasure while dropping off items at the
+                  also hidden, Planned Pethood Thrift Shop. I will definitely be
+                  back. Really good food, great staff and very reasonable
+                  prices. I ordered the Chicken Enchilada Verdes. It was really
+                  good. Loved the sauce with the cheese on top if the Enchilada.
+                  Rice was nice and moist, not dry. It has peas in it or it
+                  would have been perfect So if you like peas, you're all set!
+                  My new go to place for Mexican!!!"
+                  <br />
+                </blockquote>
+                <a
+                  class="text-accent"
+                  href="https://www.yelp.com/biz/limonar-mexican-restaurant-duluth?hrid=UZ-wWtkD6egm0tZSFONP3A&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
+                  target="_blank"
+                  >Continue Reading
+                </a>
+                <footer class="blockquote-cite">- Theresa B.</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parallax2"></div>
+        <div class="ps-light"></div>
+        <div class="ps-gray py-5">
+          <div class="visit">
+            <div class="display-2 text-center text-middle mb-2">Visit Us</div>
+            <iframe
+              class="maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13230.425091784538!2d-84.1714211!3d34.0026456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a30861de836b%3A0x6d110c4420296e0c!2sLimonar%20Mexican%20restaurant!5e0!3m2!1sen!2sus!4v1632717595377!5m2!1sen!2sus"
+              height="550"
+              style="border: 0; margin: 0 auto"
+              allowfullscreen=""
+              loading="lazy"
+              width="100%"
+            ></iframe>
+          </div>
+        </div>
+        <footer class="footer-wrapper">
+          <div class="hours footer-col">
+            <i class="fas fa-clock"></i>
+            <span class="footer-heading">Hours</span>
+            Mon: Closed
+            <br />
+            Tue - Thur: 11:00 AM - 9:30 PM
+            <br />
+            Fri - Sat: 11:00 AM - 10:30 PM
+            <br />
+            Sun: 11:00 AM - 9:30 PM
+          </div>
+          <div class="contact footer-col">
+            <i class="fas fa-phone"></i>
+            <span class="footer-heading">contact</span>
+            (678) 620-3908
+          </div>
+          <div class="address footer-col">
+            <span class="footer-heading">Connect</span>
+            <div class="social-links">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/5377a26c3e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
